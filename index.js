@@ -21,3 +21,12 @@ let createFareMultiplier = function(multiplier){
 }
 const fareDoubler = createFareMultiplier(2)
 const fareTripler = createFareMultiplier(3)
+
+const selectDifferentDrivers = function (drivers, selectingDrivers){
+  if(selectingDrivers == returnFirstTwoDrivers){
+    return returnFirstTwoDrivers()
+  }  
+  else if(selectingDrivers == returnLastTwoDrivers){
+    return returnLastTwoDrivers()
+  }  
+}
